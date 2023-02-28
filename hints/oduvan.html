@@ -12,7 +12,7 @@
                 <li>Verifique se o número é menor ou igual a 1. Se for, ele não é primo. </li>
                 <li>Verifique se o número é igual a 2. Se for, ele é primo.</li>
                 <li>Verifique se o número é par. Se for, ele não é primo.</li>
-                <li>Para cada número ímpar entre 3 e a raiz quadrada do número, verifique se o número é divisível por esse número. Se for, ele não é primo.</li>
+                <li>Para cada número entre 3 e o número, verifique se o número é divisível por esse número menos 1. Se for, ele não é primo.</li>
                 <li>Se o número passou em todas as etapas anteriores, ele é primo.</li>
              </ol>
         </p>
@@ -21,29 +21,12 @@
 <div class="question-answer">
     <div class="question">
         <p>
-            Ok, mas onde eu devo programar?
+            Acho que sei colocar em prática as três primeiras condições, mas a quarta me parece complicada.
         </p>
     </div>
     <div class="answer">
         <p>
-            Escreva seu comentário no comentário logo embaixo da definição da função soma
-        </p>
-          
-     </div>
-</div>
-<div class="question-answer">
-    <div class="question">
-        <p>
-            Posso criar uma variável para me ajudar?
-        </p>
-    </div>
-    <div class="answer">
-        <p>
-            Sim, uma das formas de resolver é atribuir/armazenar o valor da operação a+b numa variável nova.
-        </p>
-        
-        <p>
-            Só não se esqueça de retornar o valor desta variável!
+            Vamos precisar variar o divisor entre 3 e o próprio número menos 1. Você pode fazer isso usando o laço de repetição while ou o for.
         </p>
           
      </div>
