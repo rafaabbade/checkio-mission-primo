@@ -4,7 +4,7 @@ def primo(num):
 
 
 print("Example:")
-print(primo(3,2))
+print(primo(3))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
 assert primo(2) == True 
