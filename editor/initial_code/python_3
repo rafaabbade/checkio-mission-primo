@@ -1,19 +1,18 @@
-def soma(a,b):
+def primo(num):
     # escreva aqui seu código
     return None
 
 
 print("Example:")
-print(soma(3,2))
+print(primo(3,2))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
-# testa a função com números positivos como parâmetros
-assert soma(2, 3) == 5 
-    
-# testa a função com um número negativo como parâmetro
-assert soma(-1, 5) == 4
-    
-# testa a função com zero como parâmetro
-assert soma(0, 0) == 0
+assert primo(2) == True 
+
+assert primo(17) == True 
+
+assert primo(4) == False 
+
+assert primo(1) == False
     
 print("Seu código passou pelos testes, clique em Check para avançar!")
